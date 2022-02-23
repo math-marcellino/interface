@@ -140,7 +140,7 @@ const ETHRISEPage: FunctionComponent<ETHRISEPageProps> = ({}) => {
                                 <div className="flex w-full flex-col rounded-[16px] bg-gray-light-2 dark:bg-gray-dark-2 ">
                                     {/* Title, subtitle and lgoo */}
                                     <div className="flex flex-row items-center justify-between p-4">
-                                        <div className="sflex grow flex-col space-y-2">
+                                        <div className="flex grow flex-col space-y-2">
                                             <p className="text-sm leading-4 text-gray-light-10 dark:text-gray-dark-10">{metadata.subtitle}</p>
                                             <h1 className="m-0 text-2xl font-bold tracking-[-.02em] text-gray-light-12 dark:text-gray-dark-12">{metadata.title}</h1>
                                         </div>
